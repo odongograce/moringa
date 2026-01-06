@@ -27,7 +27,11 @@ with app.app_context():
         MentorCohort(mentor=m3, cohort=c3),
         MentorCohort(mentor=m4, cohort=c2),
         MentorCohort(mentor=m5, cohort=c3),
-        MentorCohort(mentor=m6, cohort=c1)
+        MentorCohort(mentor=m6, cohort=c1),
+        MentorCohort(mentor=m7, cohort=c3),
+        MentorCohort(mentor=m8, cohort=c2),
+        MentorCohort(mentor=m9, cohort=c1),
+        MentorCohort(mentor=m10, cohort=c2)
     ]
 
     students = [
